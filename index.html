@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo lo que hay que saber a la hora de visitar París, Francia">
+    <meta name="robots" content="index,follow,archive">
+    <link rel="stylesheet" type="txt/css" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="imprimir.css" media="print">
+    <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css"> 
+    <link rel="shortcut icon" href="img/favicon.png">
+    <script src="recursos/jquery.min.js"></script>
+	<script src="recursos/cycle/jquery_cycle.js"></script>
+    <script>
+        $('#slide-museos').cycle({ 
+        fx: 'scrollLeft',
+        speed: 500, 
+        timeout: 3000, 
+        prev: '#ant',
+        next: '#sig',
+        pause: true
+    });
+    </script>
+    <title>París Tour</title>
+</head>
+<body>
+    
+    <div id="todo">
+
+        <header>
+
+            <nav>
+                <h1><a href="index.html">Paris tour</a></h1>
+
+                <a href="#menu" id="hamburguesa">Menu</a>
+
+                <ul id="menu" class="noprint">
+                    <li class="menu-quever"><a href="quever.html">Qué ver</a>
+                    <ul class="desplegable">
+                        <li> <a href="quever.html#panteon"> Panteón</a></li>
+                        <li><a href="quever.html#louvre"> Pirámide de Louvre</a></li>
+                        <li><a href="quever.html#garnier"> Palacio Garnier</a></li>
+                        <li><a href="quever.html#notredame">Catedral de Notre Dame</a></li>
+                        <li><a href="quever.html#basilica">Basílica del Sagrado Corazón</a></li>
+                        <li><a href="quever.html#conciergerie">La Concergierie</a></li>
+                    </ul></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="informacion.html">Información</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+            
+        </header>
+
+        <main>
+
+            <div>
+                <article>
+                    <div class="portada">
+
+                        <div class="portada-txt">
+                            <h2>Historia</h2>
+                            <p>París nació en el <abbr title="Siglo">s.</abbr> III <abbr title="antes de Cristo"> a.C.</abbr>, cuando los parisinos, una tribu celta gala, fundaron un pueblo de pescadores. En el 52 a.C., Julio César puso fin a siglos de conflicto entre galos y romanos.</p>
+                            <p>En el s. XII, <em>los vikingos escandinavos se acercaron a París, lo que a la larga desembocó en La Guerra de los 100 Años contra la Inglaterra normanda</em> , que tomó el control de Francia en 1420. <strong> Nueve años mas tarde, Juana de Arco reorganizó las tropas francesas para derrotar a los ingleses</strong>.</p>
+                            <p>Los excesos de Luis XIV y sus herederos causaron la sublevación de los parisinos el 14 de julio de 1789, lo que inició La Revolución Francesa. <strong> El Gobierno se consolidó en 1799 bajo el mando de Napoleón Bonaparte </strong>, que conquistó gran parte de Europa hasta su derrota en Waterloo.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+
+
+
+            <div>
+                <article id="museos-visitados">
+                    <h2>Museos más visitados</h2>
+
+                    <div class="izquierda">
+                        <a href="#" id="ant">Prev</a>
+                    </div>
+
+                    <div id="slide-museos"> 
+                        <div>
+
+                            
+                            <picture>
+                                <source srcset="img/mobile-louvre.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/piramide-louvre.jpg"/>
+
+                                <img src="img/piramide-louvre.jpg" alt="Piramide Louvre"/>
+                            </picture>
+                            
+
+                            <h3>Museo Louvre</h3>
+                            <p>Es uno de los museos más visitados de París a tal punot que <strong> es considerado el museo más importante de toda Francia.</strong>.</p>
+                        </div>
+
+                        <div>
+                            <picture>
+                                <source srcset="img/mobile-pompidou.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/pimpidou.jpg"/>
+                                <img src="img/pimpidou.jpg" alt="Museo Pompidou"/>
+                            </picture>
+                            
+                            <h3>Centro Pompidou</h3>
+                            <p>Es el museo indicado apra disfrutar de una de <strong> las mejores colecciones de arte moderno del mundo.</strong></p>
+                        </div>
+
+                        
+                        <div>
+                            <picture>
+                                <source srcset="img/mobile-orsay.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/museo-orsay.jpg"/>
+
+                                <img src="img/museo-orsay.jpg" alt="Museo Orsay"/>
+                            </picture>
+                            
+                        <h3>Museo Orsay</h3>
+                        <p>Este museo posee <strong>una de las más grandes colecciones de artes plásticas del siglo XIX.</strong> </p>
+                        </div>
+                    </div>
+
+                    <div class="derecha">
+                        <a href="#" id="sig">Next</a>
+                    </div>
+                </article>
+            </div>
+
+
+
+
+
+            <div class="monumentos">
+
+                <div class="monumentos-articulos">
+
+
+                    <article class="torre-eiffel">
+                        <div class="img-torre-eiffel">
+                            <img src="img/torre-eiffel-monumento.jpg" alt="Torre Eiffel"/>
+                        </div>
+
+                        <div class="txt-torre-eiffel">
+                            <h2>La Torre Eiffel</h2>
+                            <p>Se construyó entre 1887 y 1889 por el ingeniero francés Gustave Eiffel, cuya empresa estaba especializada en construcciones en madera y estructuras metálicas. <em>El proceso necesitó de 250 obreros y duró poco más de 2 años</em> .</p>
+
+                            <p>Actualmente y gracias al auge de París como destino turístico internacional, <strong> la Torre Eiffel es el monumento más visitado del mundo con más de 7 millones de visitantes anuales </strong>.</p>
+                        </div>
+                    </article>
+
+                    
+                    <article class="arco-del-triunfo">
+                        <picture class="img-arco-del-triunfo">
+                            <source srcset="img/mobile-arco-del-triunfo2.jpg" media="(max-width: 400px)"/>
+
+
+                            <source srcset="img/mobile-arco-del-triunfo.jpg" media="(max-width: 480px)"/>
+
+                            <source srcset="img/arco-del-triunfo-monumento.jpg"/>
+
+                            <img src="img/arco-del-triunfo-monumento.jpg" alt="Arco del triunfo">
+                        </picture>
+
+
+                        <div class="contenedor-texto-arco">
+                            <div class="txt-arco-del-triunfo">
+                                <h2>Arco Del Triunfo</h2>
+                                <p>Fue creado por el arquitecto Jean Chalgrin ordenado por el mismísimo Napoleón en 1806. <strong>Su construcción demoró 30 y se inauguró en el sexto aniversario de las "Trois Glorieus"</strong>.</p>
+
+                                <p> Su función es <em>rendir homenaje a todos los que lucharon y perdieron la vida durante las guerras napoleónicas y, sobre todo, durante la Revolución Francesa</em> .</p>
+                            </div>
+                        </div>
+                    </article>
+
+
+                </div>
+
+                <div class="boton-ver-mas-monumentos">
+                    <a href="monumentos.html"><p>+ monumentos</p></a>
+                </div>
+            </div>
+
+            <section class="multimedia">
+
+                <div class="youtube-paris">
+                    <h2>Conocela en 4K</h2>
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/72kRM86V-dw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+   
+                <div class="maps-paris">
+                    <h2>Ubicala en el mapa</h2>
+                    <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457464363!2d2.2769950749124006!3d48.85894658118076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses-419!2sar!4v1657647192921!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <section class="disfruta-paris">
+
+                <div class="contenedor-texto-disfruta-paris">
+                    <div class="txt-disfruta-paris">
+                        <h2>Empezá a disfrutar de París hoy mismo</h2>
+                        <p>Comunicate con nosotros para que nos encarguemos de la organización de los recorridos turísticos en una de las ciudades más hermosas del mundo.</p>
+                    
+                        <div class="boton-contactanos">
+                            <a href="contacto.html"><p>Contactanos</p></a>
+                        </div>
+                </div>
+                </div>
+            </section>
+            
+
+        </main>
+
+        <footer>
+            
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+
+            <div class="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li>+549 011 12345</li>
+                <li>abcde@gmail.com</li>
+                <li>Calle 1234, CABA</li>
+            </ul>
+            </div>
+
+            <div class="nuestra-comunidad">
+                <h2>Nuestra comunidad</h2>
+                <ul id="redes">
+                    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li id="ig"><a href="https://www.instagram.com/" target="_blank">Instgram</a></li>
+                    <li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="derechos-reservados">
+                <h2>Derechos reservados</h2>
+                <p>Copyright © Edmundo Alvarez</p>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+</html>

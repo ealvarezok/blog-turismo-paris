@@ -1,0 +1,411 @@
+#todo {
+    min-width: 320px;
+}
+
+nav {
+    height: 70px;
+    text-align: center;
+}
+
+nav h1 {
+    font-size: 45px;
+    float: right;
+    margin: 0%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 0%; 
+}
+
+nav h1 a:active {
+    color: rgb(0, 85, 164);
+}
+
+
+
+
+#menu {
+    float: left;
+    width: 300px;
+    background-color: black;
+    margin: 0%;
+    top: 70px;
+    padding: 0%;
+    font-size: 18px;
+    text-align: left;
+    display: none;
+    position: absolute;
+}
+#menu:target {
+    display: block;
+}
+#menu > li {
+    display: block;
+    margin: 30px 20px;
+    text-align: left;
+}
+#menu > li a:active{
+    background-color: rgb(197, 33, 40);
+}
+
+.menu-quever:hover .desplegable {
+    display: none;
+}
+
+#navegacion > a:active {
+    color: white;
+}
+
+#hamburguesa {
+    display: block;
+    position: absolute;
+    background-image: url(img/hamburguesa.png);
+    width: 30px;
+    height: 24px;
+    color: transparent;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+#cerrar {
+    display: block;
+    background-image: url(img/cerrar.png);
+    width: 24px;
+    height: 25px;
+    color: transparent;
+    margin: 0% auto;
+    padding: 0%;
+}
+#menu > li a:hover{
+    background-color: black;
+}
+
+
+.bandera-francia {
+    display: block;
+}
+
+
+/* PORTADA */
+
+.portada {
+    background-image: url(img/mobile-torre-eiffel-portada.jpg);
+    padding-top: 500px;
+}
+
+.portada-txt, .quever-portada {
+    min-width: 320px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4, footer h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px 20px;
+}
+
+#slide-museos {
+    width: 85%;
+    height: 450px;
+}
+#museos-visitados div h3{
+    display: inline-block;
+    margin: 20px 10px;
+    width: 250px;
+}
+
+#museos-visitados div p{
+    display: inline-block;
+    margin: 0% 10px;
+    width: 250px;
+}
+
+#sig {
+    right: 5%;
+    top: 1750px;
+}
+
+#ant {
+    top: 1750px;
+    left: 5%;
+}
+
+.monumentos {
+    margin-top: 0%;
+}
+
+.monumentos-articulos {
+    margin-bottom: 40px;
+}
+
+.torre-eiffel {
+    display: none;
+}
+
+.arco-del-triunfo {
+    margin-top: 0%; 
+}
+
+.img-arco-del-triunfo {
+    float: none;
+}
+
+.contenedor-texto-arco {
+    width: 100%;
+}
+
+.txt-arco-del-triunfo {
+    width: auto;
+    display: block;
+    margin: 30px 20px;
+}
+
+.txt-arco-del-triunfo h2 {
+    line-height: 40px;
+}
+
+.txt-arco-del-triunfo h2, .txt-arco-del-triunfo p{
+    margin: 30px 0%;
+    padding: 0%;
+}
+
+.boton-ver-mas-monumentos:active{
+    background-color: rgb(0, 85, 164);
+}
+
+
+.multimedia {
+    display: block;
+}
+iframe {
+    width: 350px;
+    height: 250px;
+}
+.youtube-paris {
+    margin: 50px 0px;
+    padding: 0%;
+}
+.youtube-paris h2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maps-paris{
+    margin: 0px 0px 50px 0px;
+    padding: 0%;
+}
+
+
+.disfruta-paris {
+    background-image: url(img/mobile-torre-eiffel-2.jpg);
+}
+.contenedor-texto-disfruta-paris {
+    text-align: center;
+}
+.txt-disfruta-paris {
+    margin-top: 100px;
+    width: 350px;
+    margin: 50px 0px;
+    text-align: left;
+}
+
+.txt-disfruta-paris h2 {
+    line-height: 40px;
+    margin: 20px 5px;
+}
+.txt-disfruta-paris p {
+    margin: 0px 5px;
+}
+.boton-contactanos {
+    margin: 100px auto;
+}
+.boton-contactanos:active {
+    background-color: rgb(197, 33, 40);
+}
+
+footer h2 {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.contacto, .nuestra-comunidad, .derechos-reservados {
+    margin: 20px 10px;
+}
+.contacto {
+    margin-top: 50px;
+}
+
+#redes #fb a:active{
+    background-position: -174px 0px;
+}
+#redes #ig a:active {
+    background-position: -232px 0px;
+}
+#redes #tw a:active{
+    background-position: -290px;
+}
+
+.derechos-reservados {
+    margin-bottom: 50px;
+}
+
+/* QUE VER */
+
+
+.quever-portada {
+    min-width: 320px;
+    margin: 50px 20px;
+}
+
+.quever-portada h2 {
+    text-align: center;
+}
+.quever-portada p {
+    margin: 30px 20px;
+}
+
+#quever article {
+    height: 440px;
+    margin: 10px 5px;
+    width: 350px;
+}
+
+#quever article:active {
+    background-color: rgb(0, 85, 164);
+}
+#quever article:active a {
+    color: white;
+    background-color: rgb(0, 85, 164);
+}
+
+#quever article:target > div {
+    width: 350px;
+}
+
+#quever article:target > div a:first-of-type{
+    margin-left: 80%;
+}
+
+
+.quever-boton a:active{
+    background-color: rgb(0, 85, 164)
+}
+
+/* GASTRONOMIA */
+#gastronomia h2 {
+    margin-top: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+#gastronomia p {
+    margin: 20px;
+}
+
+.restaurantes > div {
+    width: 350px;
+    height: 500px;
+}
+.barriolatino-texto, .montmartre-texto {
+    width: 330px;
+    margin: 20px 10px;
+}
+.barriolatino-texto p, .montmartre-texto p {
+    margin-bottom: 0%;
+}
+
+
+
+/* INFORMACION */
+.pagina-informacion {
+    margin: 50px 0px;
+}
+
+.tener-en-cuenta {
+    margin: 50px 0px;
+}
+.tener-en-cuenta h2 {
+    margin: 40px 0px;
+    line-height: 40px;
+    text-align: center;
+}
+.tener-en-cuenta p {
+    margin: 0% 15px;
+}
+.documentacion, .cuando-ir, .precios, .dias-festivos, .horario-comercial, .donde-dormir {
+    margin: 50px 10px;
+}
+.pagina-informacion-boton {
+    margin: 50px 0px;
+    width: 250px;
+}
+
+
+.pagina-informacion-boton:active {
+    background-color: rgb(0, 85, 164);
+}
+
+/* CONTACTO */
+
+.formulario-contacto{
+    margin: 0px;
+    height: auto;
+    background-image: url(img/mobile-contacto-background.jpg) ;
+}
+
+.formulario-contacto h2, .formulario-gracias h2{
+    width: 350px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 40px auto;
+    text-align: center;
+    float: none;
+}
+
+form {
+    width: 350px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    float: none;
+}
+
+.adjuntar {
+    width: 330px;
+}
+
+textarea {
+    width: 330px;
+}
+
+.boton-enviar {
+    margin-bottom: 50px;
+}
+
+/* GRACIAS
+ */
+.formulario-gracias {
+    background-image: url(img/mobile-background-gracias.jpg);
+    background-position: top;
+    height: auto;
+}
+
+.formulario-gracias h2 {
+    margin: 150px auto;
+    
+}
+
+.pagina-gracias-boton p{ 
+    margin-bottom: 150px;
+}
+.pagina-gracias-boton p:active{
+    background-color: rgb(0, 85, 164);
+}

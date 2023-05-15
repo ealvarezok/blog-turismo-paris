@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Todo lo que hay que saber a la hora de visitar París, Francia">
+        <meta name="robots" content="index,follow,archive">
+        <link rel="stylesheet" type="txt/css" href="normalize.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="imprimir.css" media="print">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css"> 
+        <link rel="shortcut icon" href="img/favicon.png">
+        <script src="recursos/jquery.min.js"></script>
+        <script src="recursos/cycle/jquery_cycle.js"></script>
+        <script>
+            $('#slide-museos').cycle({ 
+            fx: 'scrollLeft',
+            speed: 500, 
+            timeout: 3000, 
+            prev: '#ant',
+            next: '#sig',
+            pause: true
+        });
+        </script>
+        <title>París Tour</title>
+    </head>
+<body>
+
+    <div id="todo">
+        <header>
+
+            <nav>
+                <h1><a href="index.html">Paris tour</a></h1>
+
+                <a href="#menu" id="hamburguesa">Menu</a>
+
+                <ul id="menu" class="noprint">
+                    <li class="menu-quever"><a href="quever.html">Qué ver</a>
+                    <ul class="desplegable">
+                        <li> <a href="quever.html#panteon"> Panteón</a></li>
+                        <li><a href="quever.html#louvre"> Pirámide de Louvre</a></li>
+                        <li><a href="quever.html#garnier"> Palacio Garnier</a></li>
+                        <li><a href="quever.html#notredame">Catedral de Notre Dame</a></li>
+                        <li><a href="quever.html#basilica">Basílica del Sagrado Corazón</a></li>
+                        <li><a href="quever.html#conciergerie">La Concergierie</a></li>
+                    </ul></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="informacion.html">Información</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+            
+        </header>
+
+        <main class="formulario-gracias">
+
+            <h2> ¡Gracias!, nos contactaremos con vos a la brevedad</h2>
+
+            <div class="pagina-gracias-boton">
+                <a href="index.html"><p>Volver al inicio</p></a>
+            </div>
+
+        </main>
+
+
+
+        <footer>
+            
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+
+            <div class="contacto">
+            <h2>Contacto</h2>
+                <ul>
+                    <li>+549 011 12345</li>
+                    <li>abcde@gmail.com</li>
+                    <li>Calle 1234, CABA</li>
+                </ul>
+            </div>
+
+            <div class="nuestra-comunidad">
+                <h2>Nuestra comunidad</h2>
+                <ul id="redes">
+                    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li id="ig"><a href="https://www.instagram.com/" target="_blank">Instgram</a></li>
+                    <li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="derechos-reservados">
+                <h2>Derechos reservados</h2>
+                <p>Copyright © Edmundo Alvarez</p>
+            </div>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>

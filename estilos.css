@@ -1,0 +1,1082 @@
+#todo {
+    min-width: 1024px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 150px;
+    position: sticky;
+}
+
+nav h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-family: laca-text,sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 25px 50px 25px 30px;
+    float: left;  
+}
+
+nav h1 a:hover {
+    color: rgb(0, 85, 164);
+    transition: 0.3s;
+}
+
+
+/* MENU */
+#menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    list-style: none;
+    padding: 0%;
+    float: right;  
+    margin: 60px 0px;
+    text-align: right;
+}
+
+#menu > li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#menu > li a{
+    padding: 10px 20px;
+
+}
+
+#menu > li a:hover {
+    background-color: rgb(197, 33, 40); 
+    transition: 0.3s;  
+}
+
+.menu-quever {
+    position: relative;
+}
+
+#navegacion > a{
+    color: rgb(197, 33, 40);    
+}
+
+#navegacion > a:hover {
+    color: white;
+}
+
+.desplegable {
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    top: 34px;
+    left: 0px;
+
+}
+
+.menu-quever:hover .desplegable{
+    display: block;
+    box-shadow: 5px 6px 10px 1px rgba(0,0,0,0.41);
+}
+
+.desplegable li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    background-color: black;
+    border-bottom: solid white;
+    border-width: 1,5px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.desplegable li:hover a{
+    background-color: rgb(197, 33, 40);
+    width: 200px;
+    padding: 10px;
+}
+
+#hamburguesa {
+    display: none;
+}
+#cerrar {
+    display: none;
+}
+
+/* BANDERA */
+.bandera-francia{
+    background-color: #cccccc;
+    height: 20px;
+    text-align: center;
+}
+
+.bandera-francia p {
+    color: transparent;
+    margin: 0%;
+    padding: 0%;
+}
+
+.azul {
+    background-color: rgb(0, 85, 164);
+    width: 33.33%;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0px;
+    float: left;
+}
+.blanco {
+    background-color: rgb(255, 255, 255);
+    width: 33.33%;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0px;
+    float: left;
+
+}
+.rojo {
+    background-color: rgb(197, 33, 40);
+    width: 33.33%;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0px;
+    float: left;
+}
+
+
+
+
+
+/* PORTADA */
+.portada {
+    background-image: url("img/torre-eiffel-portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    padding-top: 780px;
+}
+
+.portada-txt {
+    margin: 0px 200px 150px 200px;
+    min-width: 1000px;
+    margin: 0% auto 100px auto;
+}
+
+h2 {
+    font-family: bicyclette, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 60px;
+    margin: 30px 70px;
+    padding: 0px;
+    text-transform: uppercase ;
+}
+
+h3 {
+    font-family: laca-text,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase ;
+}
+
+h4, footer h2 {
+    font-family: laca-text,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase ;
+}
+
+p {
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 30px 70px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#museos-visitados {
+    color: white;
+    background-color:rgb(0, 85, 164);
+    padding: 40px 20px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+#museos-visitados h2{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+
+#slide-museos {
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 550px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.20);
+    border-radius: 15px;
+}
+
+#museos-visitados div h3{
+    margin: 20px 30px 10px 30px;
+    padding: 0px;
+}
+
+#museos-visitados div p{
+    margin: 10px 30px;
+    padding: 0px;
+}
+
+#sig{
+	background: url(img/next.png);
+	width: 25px;
+	height: 40px;
+	font-size: 0px;
+	z-index:90;
+    position: absolute;
+    right: 20%;
+    top: 1825px;
+}
+
+#ant{
+	background: url(img/back.png);
+	width: 25px;
+	height: 40px;
+	font-size: 0px;
+	z-index:90;
+    position: absolute;
+    left: 20%;
+    top: 1825px;
+
+}
+
+.monumentos{
+    margin: 120px 0px;
+}
+
+.monumentos-articulos {
+    min-width: auto;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.torre-eiffel{
+    display: block;
+    text-align: center;
+}
+.img-torre-eiffel {
+    display: inline-block;
+    vertical-align: middle;
+}
+.txt-torre-eiffel {
+    display: inline-block;
+    width: 480px;
+    vertical-align: middle;
+    text-align: left;
+}
+.txt-torre-eiffel h2, .txt-torre-eiffel p {
+    margin-right: 0%;
+}
+
+.txt-arco-del-triunfo h2, .txt-arco-del-triunfo p {
+    margin-left: 0%;
+}
+
+
+.arco-del-triunfo{
+    display: inline-block;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.img-arco-del-triunfo {
+    float: right;
+    vertical-align: middle;
+    text-align: left;
+    width: 50%;
+}
+.contenedor-texto-arco{
+    width: 50%;
+    text-align: right;
+}
+
+.txt-arco-del-triunfo {
+    float: right;
+    width: 480px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.txt-torre-eiffel h2, .txt-arco-del-triunfo h2 { 
+    line-height: 70px;
+}
+
+.boton-ver-mas-monumentos{
+    background-color: rgb(197, 33, 40);
+    color: white;
+    text-transform: uppercase;
+    width: 300px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.boton-ver-mas-monumentos:hover{
+    background-color: rgb(0, 85, 164);
+    transition: 0.3s;
+}
+
+.boton-ver-mas-monumentos p {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.multimedia {
+    text-align: center;
+    background-color: rgb(197, 33, 40);
+    color: white;
+}
+
+.youtube-paris, .maps-paris {
+    margin: 80px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.youtube-paris h2, .maps-paris h2 {
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+}
+
+iframe {
+    border: solid white 2px;
+}
+
+.disfruta-paris{
+    background-image: url(img/torre-eiffel-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenedor-texto-disfruta-paris {
+    max-width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.txt-disfruta-paris{
+    display: inline-block;
+    color: white;
+    width: 65%;
+    max-width: 1300px;
+    margin: 200px 50px 0px 50px;
+
+}
+
+.txt-disfruta-paris h2 {
+    line-height: 70px;
+    margin: 0%;
+
+}
+
+.txt-disfruta-paris p {
+    font-size: 22px;
+    margin: 20px 0%;
+}
+
+
+.boton-contactanos {
+    background-color: rgb(0, 85, 164);
+    color: white;
+    text-transform: uppercase;
+    width: 265px;
+    height: 65px;
+    margin: 150px auto;
+}
+
+.boton-contactanos:hover{
+    background-color: rgb(197, 33, 40);
+    transition: 0.3s;
+}
+
+.boton-contactanos p {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.contacto, .nuestra-comunidad, .derechos-reservados {
+    display: inline-block;
+    vertical-align: top;
+    margin:80px 50px;
+    padding: 20px;
+    text-align: center;
+    min-width: 100px;
+    width: 270px;
+}
+
+footer h2 {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 0px 30px 0px;
+}
+
+.contacto ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.contacto ul li {
+    list-style: none;
+    
+}
+
+.derechos-reservados p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+} 
+
+#redes {
+    padding: 0px;
+    margin: 0px;
+}
+
+#redes li {
+    display: inline-block;
+}
+
+#redes li a{
+    display: inline-block;
+    background: url(img/sprite-01.png);
+    width: 40px;
+    height: 40px;
+    text-indent:-9000px;
+    font-size: 0px;
+    margin: 0px 20px;
+}
+
+#redes #fb a:hover{
+    background-position: -174px 0px;
+}
+
+#redes #ig a {
+    background-position: -58px;
+}
+#redes #ig a:hover {
+    background-position: -232px 0px;
+}
+
+#redes #tw a{
+    background-position: -116px;
+}
+
+#redes #tw a:hover{
+    background-position: -290px;
+}
+
+/* QUE VER */
+
+#quever {
+    margin: 0px auto;
+}
+
+.quever-portada {
+    min-width: 980px;
+    margin: 70px 100px 50px 100px;
+
+}
+.quever-portada h2, .quever-portada p {
+    margin: 20px 0px;
+}
+
+#articulos {
+    text-align: center;
+}
+
+#quever article {
+    display: inline-block;
+    width: 460px;
+    height: 500px;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 30px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.20);
+
+}
+
+#quever article:hover {
+    box-shadow: 7px 8px 20px 3px rgba(0,0,0,0.75);
+    background-color: rgb(0, 85, 164);
+}
+
+#quever article h3 {
+    margin: 25px 15px;
+    padding: 0%;
+}
+
+#quever article a {
+    color: black;
+}
+#quever article:hover a {
+    color: white;
+
+}
+
+#quever article p{
+    margin: 15px;
+    padding: 0%;
+    display: none;
+}
+
+.quever-texto {
+    padding-bottom: 20px;
+
+}
+
+#quever article:target {
+    position: fixed;
+    top: 0;
+	left: 0;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0%;
+    border: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.7);
+	z-index: 2;
+}
+#quever article:target > div {
+    background:white;
+    border-radius: 20px;
+    border: solid rgb(0, 85, 164) 4px;
+    overflow: hidden;
+	padding: 0px;
+    width: 460px;
+    height: auto;
+	margin: 20px auto;
+	z-index: 1;
+}
+#quever article:target > div p {
+    display: block;
+}
+#quever article:target > div a{
+    color: black;
+}
+#quever article:target > div a:first-of-type {
+    position: fixed;
+    margin-left: 420px;
+    margin-top: 20px;
+	width: 25px;
+	height: 25px;
+	background: url(img/cruz.png);
+}
+
+.quever-boton {
+    text-align: center;
+    margin: 50px 0px 70px 0px;
+
+}
+.quever-boton a{
+    display: inline-block;
+    background-color: rgb(197, 33, 40);
+    color: white;
+    text-transform: uppercase;
+    padding: 0px;
+}
+.quever-boton a:hover{
+    background-color: rgb(0, 85, 164)
+}
+.quever-boton a p{
+    margin: 20px;
+}
+
+/* GASTRONOMIA */
+
+#gastronomia {
+    max-width: 1000px;
+    margin: 0% auto;
+}
+#gastronomia h2{
+    margin: 80px 50px 20px 50px;
+    line-height: 60px;
+}
+#gastronomia h3 {
+    margin: 10px 0px;
+}
+#gastronomia p{
+    margin: 20px 50px 50px 50px;
+}
+
+#gastronomia ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+#gastronomia ul li{
+    display: inline-block;
+    font-family: laca-text,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 30px 5px;
+    padding: 0px;
+    width: 280px;
+    height: 400px;
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.20);
+    border-radius: 15px;
+    overflow: hidden;
+}
+#gastronomia ul li h3 {
+    margin: 5px 20px;
+}
+#gastronomia ul li p{
+    text-transform: none;
+    margin: 5px 20px;
+}
+#gastronomia ul li:hover {
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.50);
+
+}
+
+.restaurantes > div {
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.20);
+    border-radius: 15px;
+    overflow: hidden;
+    height: 240px;
+    margin: 30px auto;
+    width: 900px;
+}
+.restaurantes > div:hover {
+    box-shadow: 7px 8px 20px 0px rgba(0,0,0,0.50);
+
+}
+
+.barriolatino-texto, .montmartre-texto {
+    display: inline-block;
+    width: 400px;
+    margin: 30px;
+}
+.barriolatino-img, .montmartre-img {
+    float: right;
+}
+#gastronomia .restaurantes .barriolatino-texto p, #gastronomia .restaurantes .montmartre-texto p{
+    margin: 20px 0px;
+}
+
+#gastronomia .boton-contactanos a p {
+    padding: 20px 0px;
+    margin: 0px;
+    vertical-align: middle;
+    
+}
+
+
+/* INFORMACIÓN */
+
+.pagina-informacion {
+    margin: 150px auto 200px auto;
+    text-align: center;
+    max-width: 1280px;
+}
+
+.tener-en-cuenta h2 {
+    max-width: 1000px;
+    text-align: center;
+    margin: 150px auto 80px auto;
+    line-height: 70px;
+}
+
+.tener-en-cuenta p {
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 20px 70px;
+    padding: 0px;
+    text-align: left;
+    max-width: 1000px;
+    display: inline-block;
+}
+
+.pagina-informacion p {
+    margin: 0%;
+    text-align: left;
+}
+
+.pagina-informacion ul {
+    margin: 0%;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.pagina-informacion ul li {
+    margin: 0%;
+    padding: 0% 10px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pagina-informacion h4 {
+    padding-left: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.documentacion, .cuando-ir, .precios, .dias-festivos, .horario-comercial, .donde-dormir {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    padding-top: 180px;
+    margin: 80px 30px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.documentacion {
+    background-image: url("img/icon-pasaporte.png");
+}
+
+.cuando-ir {
+    background-image: url("img/icon-clima.png");
+}
+
+.precios {
+    background-image: url("img/icon-precio.png");
+}
+
+.dias-festivos {
+    background-image: url("img/icon-calendario.png");
+}
+
+.horario-comercial {
+    background-image: url(img/icon-tienda-01.jpg);
+}
+
+.donde-dormir {
+    background-image: url(img/icon-dormir-01.png);
+}
+
+
+.pagina-informacion-boton{
+    background-color: rgb(197, 33, 40);
+    color: white;
+    text-transform: uppercase;
+    width: 400px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.pagina-informacion-boton:hover{
+    background-color: rgb(0, 85, 164);
+    transition: 0.3s;
+}
+
+.pagina-informacion-boton p {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+
+} 
+
+/* CONTACTO */
+
+.formulario-contacto {
+    background-image: url(img/contacto-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    overflow: hidden;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario-contacto h2 {
+    color: white;
+    line-height: 60px;
+    font-size:70px;
+    width: 500px;
+    margin: 180px 0px 0px 50px;
+    padding: 0%;
+    float: left;
+
+}
+
+form {
+    width: 600px;
+    height: auto;
+    padding: 40px 10px;
+    background-color: rgba(0, 0, 0, 0.517);
+    float: right;
+    text-align: center;
+    margin: 150px 50px 150px 0px;
+
+}
+
+textarea{
+    height: 200px;
+    width: 530px;
+    resize:none;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+input {
+    margin: 10px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    width: 250px;
+
+}
+
+.completar, .completar-fecha {
+    display: inline-block;
+}
+
+.completar-fecha {
+    margin: 0px;
+}
+
+.completar-fecha input{
+    width: 180px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.completar-fecha span {
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.boton-enviar input{
+    background-color: rgb(197, 33, 40);
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+    width: auto;
+    height: 40px;
+    padding: 0px 40px;
+    margin-top: 50px;
+}
+
+.boton-enviar input:hover {
+    background-color: rgb(0, 85, 164);
+    transition: 0.3s;
+}
+
+.completar-monumentos span {
+    display: block;
+    font-family: laca-text,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+
+.completar-monumentos label {
+    text-align: left;
+    display: inline-block;
+    width: 220px;
+    margin: 5px 30px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    
+}
+
+.completar-monumentos label input{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+}
+
+.completar-monumentos {
+    margin: auto;
+    color: white;
+}
+
+.check {
+    margin-bottom: 30px;
+    
+}
+
+select{
+    width: 258px;
+    height: 27.5px;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    color: #797979;
+    margin: 5px;
+}
+
+.completar-momento {
+    display: inline-block;
+}
+
+.condiciones label{
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.condiciones label input{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: auto;
+    width: auto;
+}
+
+.adjuntar {
+    border: solid white 2px;
+    width: 530px;
+    display: block;
+    margin: 0px auto;
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: rgb(197, 33, 40);
+
+
+}
+
+.adjuntar span{
+    font-family: laca-text,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+}
+
+.adjuntar-texto {
+    padding: 15px;
+}
+
+.adjuntar input {
+    color: white;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 15px;
+    width: auto;;
+}
+
+/* GRACIAS */
+
+.formulario-gracias {
+    background-image: url(img/contacto-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.formulario-gracias h2 {
+    color: white;
+    line-height: 60px;
+    font-size:70px;
+    width: 800px;
+    margin: 180px auto 180px auto;
+    padding: 0%;
+    text-align: center;
+
+}
+
+.presentacion-tp {
+    margin: 100px 0px;
+}
+
+.presentacion-tp ul {
+    list-style:  none;
+    font-family: laca-text,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.presentacion-tp ul li {
+    margin: 10px;
+}
+
+.pagina-gracias-boton p{
+    background-color: rgb(197, 33, 40);
+    width: 200px;
+    height: auto;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    margin: 0px auto 180px auto;
+}
+
+.pagina-gracias-boton p:hover{
+    background-color: rgb(0, 85, 164);
+}

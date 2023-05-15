@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Todo lo que hay que saber a la hora de visitar París, Francia">
+        <meta name="robots" content="index,follow,archive">
+        <link rel="stylesheet" type="txt/css" href="normalize.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="imprimir.css" media="print">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css"> 
+        <link rel="shortcut icon" href="img/favicon.png">
+        <script src="recursos/jquery.min.js"></script>
+        <script src="recursos/cycle/jquery_cycle.js"></script>
+        <script>
+            $('#slide-museos').cycle({ 
+            fx: 'scrollLeft',
+            speed: 500, 
+            timeout: 3000, 
+            prev: '#ant',
+            next: '#sig',
+            pause: true
+        });
+        </script>
+        <title>París Tour</title>
+    </head>
+<body>
+
+    <div id="todo">
+        <header>
+
+            <nav>
+                <h1><a href="index.html">Paris tour</a></h1>
+
+                <a href="#menu" id="hamburguesa">Menu</a>
+
+                <ul id="menu" class="noprint">
+                    <li id="navegacion" class="menu-quever"><a href="quever.html">Qué ver</a>
+                    <ul class="desplegable">
+                        <li> <a href="#panteon"> Panteón</a></li>
+                        <li><a href="#louvre"> Pirámide de Louvre</a></li>
+                        <li><a href="#garnier"> Palacio Garnier</a></li>
+                        <li><a href="#notredame">Catedral de Notre Dame</a></li>
+                        <li><a href="#basilica">Basílica del Sagrado Corazón</a></li>
+                        <li><a href="#conciergerie">La Concergierie</a></li>
+                    </ul></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="informacion.html">Información</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+            
+        </header>
+
+
+        
+        <main id="quever">
+
+            <div class="quever-portada">
+                <h2>¿Qué ver en París?</h2>
+
+                <p>Como saben, París es una de las ciudades más visitadas del mundo. Esto se debe no solo a su relevancia histórica si no también a su cultura. Tan es así que muchos la llaman la capital cultural del mundo.</p>
+
+                <p>En París, además de  disfrutar de las obras arquitectónicas que visten la ciudad, podrás visitar los museos y monumentos más importantes que tiene el país. Si bien muchos se pueden visitar de manera gratuita, necesitarás cierta organización ya que generalmente, en ciertos horarios del día, se desborda de gente.</p>
+
+                <p>A continuación les detallamos algunos de los lugares más populares para conocer.</p>
+            </div>
+
+
+
+            <div id="articulos">
+
+            
+                <article id="panteon">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#panteon">
+
+                            <picture>
+                                <source srcset="img/mobile-panteon.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/panteon.jpg"/>
+
+                                <img src="img/panteon.jpg" alt="Panteón de París"/>
+                            </picture>
+
+                            <h3>Panteón</h3>
+                        </a>
+
+                        <div class="quever-texto">
+                            <p>Se construyó en 1790 siendo el primer monumento importante en París. </p>
+                            <p>Hasta la construcción de la Torre Eiffel, ofreció la mejor vista panorámica de la ciudad.</p>
+                        </div>
+
+                    </div>
+                </article>
+
+            
+                <article id="louvre">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#louvre">
+
+                            <picture>
+                                <source srcset="img/mobile-louvre-quever.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/louvre.jpg"/>
+
+                                <img src="img/louvre.jpg" alt="Pirámide Louvre de París"/>
+                            </picture>
+
+                            <h3>Pirámide de Louvre</h3>
+                        </a>
+                        <div class="quever-texto">
+                            <p>Es una pirámide de cristal de 200 <abbr title="Toneladas"> t </abbr> y funciona como entrada al Museo Louvre que se encuentra en el centro del cour Napoleón. </p>
+                        </div>
+                    </div>
+                </article>
+            
+
+                <article id="garnier">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#garnier">
+
+                            <picture>
+                                <source srcset="img/mobile-palacio-garnier.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/palacio-garnier.jpg"/>
+
+                                <img src="img/palacio-garnier.jpg" alt="Palacio Garnier de París"/>
+                            </picture>
+
+                            <h3>Palacio Garnier</h3>
+                        </a>
+                        <div class="quever-texto">
+                            <p>El imponente edificio con estilo neobarroco fue mundialmente conocido por inspirar la obra de "El Fantasma de la Opera".</p>
+                        </div>
+                    </div>
+                </article>
+            
+                <article id="notredame">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#notredame">
+
+                            <picture>
+                                <source srcset="img/mobile-notredame.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/notredame.jpg"/>
+
+                                <img src="img/notredame.jpg" alt="Catedral de Notre Dame París"/>
+                            </picture>
+
+                            <h3>Catedral de Notre Dame</h3>
+                        </a>
+
+                        <div class="quever-texto">
+                            <p>Construida en 1245, es una de las catedrales góticas más antiguas del mundo. Fue anfitriona de actos historicos como la coronación de Napoleón Bonaparte y la beatificación de Juana de Arco.</p>
+                        </div>
+                    </div>
+                </article>
+            
+
+                <article id="basilica">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#basilica">
+
+                            <picture>
+                                <source srcset="img/mobile-basilica.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/basilica.jpg"/>
+
+                                <img src="img/basilica.jpg" alt="Basílica del Sagrado Corazón"/>
+                            </picture>
+
+                            <h3>Basílica del Sagrado Corazón</h3>
+                        </a>
+
+                        <div class="quever-texto">
+                            <p>Inaugurada en 1914 en la colina Montmartre, a 130 <abbr title="Metros"> m </abbr> de altura, se convirtió en uno de los lugares sagrados más importantes de París. </p>
+                        </div>
+                    </div>
+                </article>
+            
+
+                <article id="conciergerie">  
+                    <div>
+
+                        <a href="#"></a>
+                        <a href="#conciergerie">
+
+                            <picture>
+                                <source srcset="img/mobile-laconcergerie.jpg" media="(max-width: 480px)"/>
+
+                                <source srcset="img/laconciergerie.jpg"/>
+
+                                <img src="img/laconciergerie.jpg" alt="La Conciergerie"/>
+                            </picture>
+
+
+                            <h3>La Conciergerie</h3>
+                        </a>
+
+                        <div class="quever-texto">
+                            <p>En plena Revolición Francesa, este espléndido palacio gótico funcionó como uno de los centros de reclusión más importantes. </p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+
+            <div class="quever-boton">
+                <a href="contacto.html"><p>¿Querés visitarlos?</p></a>
+            </div>
+
+        </main>
+        
+
+
+
+        <footer>
+            
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+
+            <div class="contacto">
+            <h2>Contacto</h2>
+                <ul>
+                    <li>+549 011 12345</li>
+                    <li>abcde@gmail.com</li>
+                    <li>Calle 1234, CABA</li>
+                </ul>
+            </div>
+
+            <div class="nuestra-comunidad">
+                <h2>Nuestra comunidad</h2>
+                <ul id="redes">
+                    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li id="ig"><a href="https://www.instagram.com/" target="_blank">Instgram</a></li>
+                    <li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="derechos-reservados">
+                <h2>Derechos reservados</h2>
+                <p>Copyright © Edmundo Alvarez</p>
+            </div>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>

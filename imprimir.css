@@ -1,0 +1,52 @@
+.noprint {
+    display: none;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35pt;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+}
+
+abbr::after {
+    content: attr(title);
+    color: silver;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+a[href]::after{
+    content: attr(href);
+    color: blue;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+img {
+    filter: grayscale(1);
+}
+
+.multimedia {
+    display: none;
+}
+
+#museos-visitados {
+    display: block;
+}
+
+.portada {
+    padding-top: 0%;
+}
+
+.documentacion, .cuando-ir, .precios, .dias-festivos, .horario-comercial, .donde-dormir {
+    padding: 0%;
+    
+}

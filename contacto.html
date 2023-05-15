@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Todo lo que hay que saber a la hora de visitar París, Francia">
+        <meta name="robots" content="index,follow,archive">
+        <link rel="stylesheet" type="txt/css" href="normalize.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="imprimir.css" media="print">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/bll1fmr.css"> 
+        <link rel="shortcut icon" href="img/favicon.png">
+        <script src="recursos/jquery.min.js"></script>
+        <script src="recursos/cycle/jquery_cycle.js"></script>
+        <script>
+            $('#slide-museos').cycle({ 
+            fx: 'scrollLeft',
+            speed: 500, 
+            timeout: 3000, 
+            prev: '#ant',
+            next: '#sig',
+            pause: true
+        });
+        </script>
+        <title>París Tour</title>
+    </head>
+<body>
+
+    <div id="todo">
+        <header>
+
+            <nav>
+                <h1><a href="index.html">Paris tour</a></h1>
+
+                <a href="#menu" id="hamburguesa">Menu</a>
+
+                <ul id="menu" class="noprint">
+                    <li class="menu-quever"><a href="quever.html">Qué ver</a>
+                    <ul class="desplegable">
+                        <li> <a href="quever.html#panteon"> Panteón</a></li>
+                        <li><a href="quever.html#louvre"> Pirámide de Louvre</a></li>
+                        <li><a href="quever.html#garnier"> Palacio Garnier</a></li>
+                        <li><a href="quever.html#notredame">Catedral de Notre Dame</a></li>
+                        <li><a href="quever.html#basilica">Basílica del Sagrado Corazón</a></li>
+                        <li><a href="quever.html#conciergerie">La Concergierie</a></li>
+                    </ul></li>
+                    <li><a href="gastronomia.html">Gastronomía</a></li>
+                    <li><a href="informacion.html">Información</a></li>
+                    <li id="navegacion"><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+            
+        </header>
+
+        <main class="formulario-contacto">
+
+            <h2>Completá el formulario para saber más sobre los mejores tours de París</h2>
+
+            <form action="gracias.html" method="post" enctype="multipart/form-data">
+
+                <div class="completar">
+                    <input type="text" name="nombre" placeholder="Nombre*" required/>
+                </div>
+
+                <div class="completar">
+                    <input type="text" name="apellido" placeholder="Apellido*" required/> 
+                </div>  
+
+                <div class="completar">
+                    <input type="email" name="email" placeholder="Email*" required/>
+                </div>
+
+                <div class="completar">
+                    <input type="email" name="confirmacionEmail*" placeholder="Confirmación de email" required/>
+                </div>
+
+                <div class="completar">
+                    <input type="tel" name="telefono" placeholder="Teléfono*" required/>
+                </div>
+
+                <div class="completar">
+                    <input type="tel" name="otroTelefono" placeholder="Otro teléfono"/>
+                </div>
+
+                <div class="completar-momento">
+                    <select name="momentoDelDia">
+                        <option value="" selected disabled>Disponibilidad horaria*</option>
+                        <option value="mañana">Mañana</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noche">Noche</option>
+                        <option value="cualquierMomento">Todos</option>
+                    </select>
+                </div>
+
+                <div class="completar">
+                    <input type="number" name="cantidadPersonas" placeholder="Cantidad de Personas*" min="1" max="30" required/>
+                </div>
+
+                <div class="completar-fecha">
+                    <span>Ida</span>
+                    <input type="date" name="fecha" min="2022-07-01" max="2022-12-31" required/>
+                </div>
+
+                <div class="completar-fecha">
+                    <span>Vuelta</span>
+                    <input type="date" name="fecha" min="2022-07-01" max="2022-12-31" required/>
+                </div>
+
+                <div class="completar-monumentos">
+                    
+                    <span>Que te gustaría conocer?</span>
+
+                    <div class="check">
+                        <label> 
+                            <input name="pompidou" type="checkbox" value="pompidou"/>
+                            Centro Cultural Pompidou
+                        </label>
+
+                        <label> 
+                            <input name="louvre" type="checkbox" value="louvre"/>
+                            Museo Louvre
+                        </label>
+
+                        <label> 
+                            <input name="panteon" type="checkbox" value="panteon"/>
+                            El Panteón
+                        </label>
+
+                        <label> 
+                            <input name="orsay" type="checkbox" value="orsay"/>
+                            Museo Orsay
+                        </label>
+
+                        <label> 
+                            <input name="torreEiffel" type="checkbox" value="torreEiffel"/>
+                            Torre Eiffel
+                        </label>
+
+                        <label> 
+                            <input name="arcoDelTriunfo" type="checkbox" value="arcoDelTriunfo"/>
+                            Arco del triunfo
+                        </label>
+
+                        <label> 
+                            <input name="garnier" type="checkbox" value="garnier"/>
+                            Palacio Garnier
+                        </label>
+
+                        <label> 
+                            <input name="notreDame" type="checkbox" value="notreDame"/>
+                            Catedral de Notre Dame
+                        </label>
+
+                        <label> 
+                            <input name="sagradoCorazon" type="checkbox" value="sagradoCorazon"/>
+                            Basílica del Sagrado Corazón
+                        </label>
+
+                        <label> 
+                            <input name="concergerie" type="checkbox" value="concergerie"/>
+                            La Conciergerie
+                        </label>
+                    </div>
+                </div>
+
+                <div class="adjuntar">
+                    
+                    <div class="adjuntar-texto">
+                        <span>Es obligación adjuntar el certificado de vacunación completa contra el COVID-19 para continuar: </span>
+                    </div>
+                    
+                    <input type="file" name="archivo" accept=".pdf,.jpg,.png" />
+
+                </div>
+
+                <div>
+                    <textarea name="Comentario" placeholder="Comentarios"></textarea>
+                </div>
+
+                <div class="condiciones">
+                    <label>
+                        <input type="radio" name="condiciones" required/>
+                        Acepto los términos y condiciones
+                    </label>
+                </div>
+
+                <div class="boton-enviar">
+                    <input type="submit" name="Enviar" id="enviar"/>
+                </div>
+
+            </form>
+
+
+
+        </main>
+
+
+
+        <footer>
+            
+            <div class="bandera-francia">
+
+                <div class="azul"><p>Color azul de bandera de francia</p></div>
+                <div class="blanco"><p>Color blanco de bandera de francia</p></div>
+                <div class="rojo"><p>Color rojo de bandera de francia</p></div>
+
+            </div>
+
+            <div class="contacto">
+            <h2>Contacto</h2>
+                <ul>
+                    <li>+549 011 12345</li>
+                    <li>abcde@gmail.com</li>
+                    <li>Calle 1234, CABA</li>
+                </ul>
+            </div>
+
+            <div class="nuestra-comunidad">
+                <h2>Nuestra comunidad</h2>
+                <ul id="redes">
+                    <li id="fb"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li id="ig"><a href="https://www.instagram.com/" target="_blank">Instgram</a></li>
+                    <li id="tw"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="derechos-reservados">
+                <h2>Derechos reservados</h2>
+                <p>Copyright © Edmundo Alvarez</p>
+            </div>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>
